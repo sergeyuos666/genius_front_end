@@ -1,0 +1,21 @@
+.advantages_section {
+  padding: 16px 99px;
+  margin: 0 0;
+  max-width: 1440px;
+
+  font-size: 20px;
+  font-weight: 300;
+
+  background-color: var(--main-green_color);
+  color: var(--main-white-color);
+}
+
+.advantages_section__list {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.advantages_section__item:not(:last-child) {
+  /* margin-right: 160px; */
+}

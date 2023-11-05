@@ -1,0 +1,37 @@
+.header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding-top: 32px;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  /* padding: 34px 87px 40px 103px; */
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  gap: 40px;
+}
+
+.nav__logo_link {
+  /* margin-right: 177px; */
+}
+
+.header__nav_list {
+  display: flex;
+  flex-direction: row;
+  gap: 64px;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.header__nav_item:not(:last-child) {
+  margin-right: 64px;
+}

@@ -1,0 +1,117 @@
+.footer {
+  background-color: var(--main-black-color);
+  background-image: url(../img/footer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 32px 100px;
+  position: relative;
+}
+
+.footer__container {
+  display: flex;
+  gap: 16px;
+}
+
+.footer__logo_icon {
+  fill: var(--main-white-color);
+}
+
+.footer__list_nav {
+  display: flex;
+
+  gap: 16px;
+
+  flex-basis: 50%;
+}
+
+.footer__logo_cover {
+  flex-grow: 1;
+}
+
+.footer__logo__link {
+  display: inline-block;
+}
+
+.footer__nav_footer_list {
+  flex-grow: 1;
+}
+
+.footer__contact_address {
+  display: flex;
+  gap: 16px;
+  flex-basis: 50%;
+}
+
+.footer__sosial_link_list {
+  display: flex;
+}
+
+.footer__contact_list {
+  flex-grow: 1;
+}
+
+.footer__contact_list .footer__contact_item:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.footer__sosial_link_list .footer__sosial_link_item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.footer__nav_footer_link {
+  color: var(--main-white-color);
+}
+
+.footer__contact_address_link {
+  color: var(--main-white-color);
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 16px;
+}
+
+.footer__address_icon {
+  fill: var(--main-white-color);
+}
+
+.footer__address_icon:hover {
+  fill: var(--main-green_color);
+}
+
+.footer_politics {
+  flex-grow: 1;
+}
+
+.footer__contact_address_link {
+  margin-bottom: 0;
+}
+
+.footer_politics p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #a18268;
+  margin-bottom: 0;
+}
+
+.footer::before,
+.footer::after {
+  position: absolute;
+  content: "";
+  background-repeat: no-repeat;
+  bottom: 0;
+}
+
+.footer::before {
+  width: 180px;
+  height: 120px;
+  background-image: url(../img/right_bread.png);
+  background-size: 180px 120px;
+  left: 0;
+}
+
+.footer::after {
+  width: 380px;
+  height: 190px;
+  background-image: url(../img/left_breads.png);
+  right: 0;
+}

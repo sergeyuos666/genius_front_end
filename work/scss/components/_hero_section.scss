@@ -1,0 +1,48 @@
+.hero_section {
+  padding: 272px 0;
+
+  background-image: linear-gradient(103deg,
+      rgba(18, 18, 17, 0.78) 2.03%,
+      rgba(18, 18, 17, 0.6) 58.46%,
+      rgba(18, 18, 17, 0) 90.36%),
+    url(../img/hero.png);
+  background-color: blue;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+
+  text-align: center;
+}
+
+.hero_section__title {
+  color: var(--main-white-color);
+  margin-bottom: 0;
+  font-size: 128px;
+  font-weight: 900;
+
+  animation-name: spin;
+  animation-duration: 1.2s;
+  animation-delay: 2s;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+
+  50% {
+    transform: rotate(160deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.hero_section__title .accent {
+  color: var(--main-green_color);
+}
+
+.hero_section__title {
+  color: var(--main-white-color);
+}

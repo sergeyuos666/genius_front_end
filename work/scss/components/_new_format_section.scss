@@ -1,0 +1,35 @@
+.new_format_section {
+  padding-top: 96px;
+}
+
+.new_format__content_container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.new_format_section__cover {
+  max-width: 710px;
+  font-weight: var(--second-font-weight);
+}
+
+.new_format_section__name {
+  margin-bottom: 42px;
+}
+
+.new_format_section__text:not(:last-child) {
+  margin-bottom: 42px;
+}
+
+.new_format_section__text.limited {
+  max-width: 345px;
+}
+
+.new_format_section__whi {
+  color: var(--main-green_color);
+  text-transform: uppercase;
+}
+
+.new_format_section__description {
+  color: var(--main-green_color);
+}

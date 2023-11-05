@@ -1,0 +1,45 @@
+// Font 
+@import './utils/font';
+// Variables 
+@import'./utils/variables';
+// Base 
+@import './base';
+// utils
+@import './utils/utils';
+// buttons 
+@import './components/buttons';
+@import './components/links';
+
+/* header */
+@import './components/header';
+
+/* hero section */
+@import './components/hero_section';
+
+@import './utils/mixins';
+
+
+/* advantages_section */
+@import './components/advantages_section';
+
+/* new_format_section  */
+@import './components/new_format_section';
+
+
+/* cocker_section container */
+@import './components/cocker_section';
+
+
+/* format_section  */
+@import './components/format_section';
+@import './components/carusel';
+
+/* adress_section */
+@import './components/adress_section';
+
+
+/* footer  */
+@import './components/footer';
+
+/* modal  */
+@import './components/modals';

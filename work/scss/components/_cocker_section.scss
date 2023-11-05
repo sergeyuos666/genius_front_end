@@ -1,0 +1,74 @@
+.cocker_section__title {
+  position: relative;
+  font-size: 64px;
+  text-align: center;
+
+  margin: 0 auto 80px;
+}
+
+.cocker_section__title ::before,
+.cocker_section__title ::after {
+  position: absolute;
+  width: 352px;
+  border: 2px solid #cfcfbc;
+  content: "";
+}
+
+.cocker_section__title ::before {
+  left: 0px;
+  bottom: 24px;
+}
+
+.cocker_section__title ::after {
+  right: 0px;
+  bottom: 24px;
+}
+
+.cocker_section__title .accent {
+  color: var(--secondary-green-dark-color);
+}
+
+.cocker_section__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  row-gap: 40px;
+}
+
+.cocker_section__item {
+  flex-basis: calc((100% - 30px) / 2);
+  transition: transform 2s;
+}
+
+.cocker_section__item:hover {
+  transform: scale(1.2);
+}
+
+.cocker_section_woreker {
+  display: flex;
+  gap: 30px;
+}
+
+.cocker_section__worker_img {
+  box-shadow: -16px 16px 0 0 var(--main-white-color), -16px 16px 0 2px #a18268;
+  border-radius: 4px 4px 4px 200px;
+}
+
+.cocker_section__woreker_name {
+  font-size: 40px;
+  font-weight: var(--second-font-weight);
+  margin-bottom: 16px;
+}
+
+.cocker_section__cover_description p {
+  margin-bottom: 24px;
+}
+
+.cocker_section__cover_description p:last-child {
+  margin-bottom: 0;
+}
+
+.cocker_section__woreker_who_im,
+.cocker_section__woreker_description {
+  margin-bottom: 16px;
+}

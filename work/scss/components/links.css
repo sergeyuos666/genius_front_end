@@ -1,0 +1,10 @@
+.link {
+  color: var(--main-white-color);
+  line-height: 1.5;
+  transition: color 0.3s, font-weight 0.3s;
+}
+
+.link:hover {
+  color: var(--main-green_color);
+  font-weight: 600;
+}/*# sourceMappingURL=links.css.map */

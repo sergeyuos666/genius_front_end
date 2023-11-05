@@ -1,0 +1,23 @@
+/* btn  */
+.btn {
+  padding: 16px 32px;
+  color: var(--main-white-color);
+  border-radius: 8px;
+  font-size: var(--main-font-size);
+  font-weight: var(--second-font-weight);
+  border: 2px solid var(--main-green_color);
+  background: var(--bakery-landing-1-c-2, var(--main-green_color));
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: #465929;
+  background: transparent;
+}
+
+.btn:disabled {
+  color: grey;
+  background-color: lightgrey;
+  border: lightgrey;
+  cursor: not-allowed;
+}
