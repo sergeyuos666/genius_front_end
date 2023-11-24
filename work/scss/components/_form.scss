@@ -1,0 +1,51 @@
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input{
+  &:focus-within .input__form_lable {
+      transform: translate(-36px, -40px);
+    }
+  &__form_lable {
+  position: absolute;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.17;
+  color: var(--grey_lite__brand_color);
+  top: 16px;
+  left: 42px;
+  transition: transform 0.3s;
+}
+    &__control {
+      width: 100%;
+      border: 1px solid var(--grey_lite__brand_color);
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1.17;
+      background-color: transparent;
+      padding: 16px 42px;
+
+      &:focus {
+          border-color: var(--main-green_color);
+          outline: none;
+        }
+    }
+
+}
+
+
+.form_terms{
+text-align: center;
+
+&__text_link {
+  color: var(--bakery-landing-11, #31261a);
+  text-underline-offset: 2px;
+}
+}
+
+
+

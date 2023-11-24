@@ -1,0 +1,69 @@
+.cocker_section{
+&__title {
+    position: relative;
+    font-size: 32px;
+    margin: 0 auto 24px;
+
+      @media screen and (min-width: $bp-desktop) {
+          margin-bottom: 80px;
+          font-size: 64px;
+        }
+
+    &--centered{
+      text-align: center;
+    }
+  }
+    &__title ::before,
+    &__title ::after {
+      display: none;
+      position: absolute;
+      width: 352px;
+      border: 2px solid #cfcfbc;
+      content: "";
+      bottom: 24px;
+
+      @media screen and (min-width: $bp-desktop) {
+         display: block;
+        }
+    }
+    &__title ::before {
+      left: 0px;
+      
+    }
+
+    &__title ::after {
+      right: 0px;
+     
+    }
+
+        &__list {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          gap: 20px;
+          
+
+          @media screen and (min-width: $bp-tablet) {
+            flex-direction: row;
+              gap: 40px 30px;
+            }
+        }
+    
+        &__item {
+          
+          transition: transform 2s;
+
+          @media screen and (min-width: $bp-tablet) {
+            flex-basis: calc((100% - 30px) / 2);
+            }
+        }
+    
+        &__item:hover {
+          transform: scale(1.2);
+        }
+
+}
+
+
+
+

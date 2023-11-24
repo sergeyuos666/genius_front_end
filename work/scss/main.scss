@@ -11,35 +11,42 @@
 @import './components/links';
 
 /* header */
-@import './components/header';
+@import './layots/header';
 
 /* hero section */
-@import './components/hero_section';
+@import './layots/hero_section';
 
 @import './utils/mixins';
 
 
 /* advantages_section */
-@import './components/advantages_section';
+@import './layots/advantages_section';
 
 /* new_format_section  */
-@import './components/new_format_section';
+@import './layots/new_format_section';
 
 
 /* cocker_section container */
-@import './components/cocker_section';
+@import './layots/cocker_section';
 
 
 /* format_section  */
-@import './components/format_section';
+@import './layots/format_section';
 @import './components/carusel';
 
 /* adress_section */
-@import './components/adress_section';
+@import './layots/adress_section';
 
 
 /* footer  */
-@import './components/footer';
+@import './layots/footer';
 
 /* modal  */
-@import './components/modals';
+@import './layots/modals';
+
+@import './utils/text';
+@import './components/chef_cards';
+@import './components/format_cards';
+@import './components/form';
+@import './layots/burger';
+@import './components/pagination';

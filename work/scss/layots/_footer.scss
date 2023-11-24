@@ -1,0 +1,140 @@
+.footer {
+  
+  background-color: var(--main-black-color);
+  background-image: url(../img/footer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 32px 100px;
+  position: relative;
+  
+
+  &__container {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      text-align: center;
+
+      @media screen and (min-width: $bp-tablet) {
+          flex-direction: row;
+          text-align: left;
+        }
+    }
+  
+    &__logo_icon {
+      fill: var(--main-white-color);
+    }
+  
+    &__list_nav {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      text-align: center;
+
+      @media screen and (min-width: $bp-tablet) {
+         flex-direction: row;
+        flex-basis: 50%;
+        text-align: left;
+        }
+    }
+  
+    &__logo_cover {
+      flex-grow: 1;
+    }
+  
+    &__logo__link {
+      display: inline-block;
+    }
+  
+    &__nav_footer_list {
+      flex-grow: 1;
+    }
+  
+    &__contact_address {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      text-align: center;
+
+      @media screen and (min-width: $bp-tablet) {
+          flex-direction: row;
+          flex-basis: 50%;
+          text-align: left;
+        }
+    }
+  
+    &__sosial_link_list {
+      display: flex;
+     justify-content: center;
+    }
+  
+    &__contact_list {
+      flex-grow: 1;
+    }
+  
+    &__contact_list &__contact_item:not(:last-child) {
+      margin-bottom: 16px;
+    }
+  
+    &__sosial_link_list &__sosial_link_item:not(:last-child) {
+      margin-right: 10px;
+    }
+  
+    &__nav_footer_link {
+      color: var(--main-white-color);
+    }
+  
+    &__contact_address_link {
+      color: var(--main-white-color);
+      font-size: 16px;
+      font-weight: 300;
+      margin-bottom: 16px;
+    }
+  
+    &__address_icon {
+      fill: var(--main-white-color);
+    }
+  
+    &__address_icon:hover {
+      fill: var(--main-green_color);
+    }
+  
+    &__politics {
+      flex-grow: 1;
+    }
+  
+    &__contact_address_link {
+      margin-bottom: 0;
+    }
+  
+    &__politics p {
+      font-size: 14px;
+      font-weight: 400;
+      color: #a18268;
+      margin-bottom: 0;
+    }
+  
+    &::before,
+    &::after {
+      position: absolute;
+      content: "";
+      background-repeat: no-repeat;
+      bottom: 0;
+    }
+  
+    &::before {
+      width: 180px;
+      height: 120px;
+      background-image: url(../img/right_bread.png);
+      background-size: 180px 120px;
+      left: 0;
+    }
+  
+    &::after {
+      width: 380px;
+      height: 190px;
+      background-image: url(../img/left_breads.png);
+      right: 0;
+    }
+}
+

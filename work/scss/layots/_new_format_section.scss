@@ -1,0 +1,45 @@
+.new_format_section {
+  padding-top: 40px;
+
+  @media screen and (min-width: $bp-tablet) {
+      padding-top: 96px;
+    }
+
+  &__content_container {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 40px;
+
+     
+    }
+  
+    &__cover {
+      max-width: 710px;
+      font-weight: var(--second-font-weight);
+    }
+  
+    &__name {
+      margin-bottom: 42px;
+    }
+  
+    &__text:not(:last-child) {
+      margin-bottom: 42px;
+    }
+  
+    &__text {
+      &--limited {
+          max-width: 345px;
+        }
+    }
+
+    &__img{
+      border-radius: 400px 400px 0 0;
+      display: none;
+      @media screen and (min-width: $bp-tablet) {
+        display: block;
+      }
+        }
+}
+
+

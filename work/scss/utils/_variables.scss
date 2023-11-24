@@ -5,10 +5,16 @@
   --main-white-color: #faf4ea;
   --secondary-green-dark-color: #465929;
   --grey_lite__brand_color: #cfcfbc;
+
   --main-font-size: 18px;
   --second-font-size: 14px;
   --title-font-size: 64px;
   --title-font-weight: 900;
   --first-font-weight: 400;
   --second-font-weight: 600;
+
 }
+
+ $bp-mobile: 480px;
+ $bp-tablet: 720px;
+ $bp-desktop: 1280px;

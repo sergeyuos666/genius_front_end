@@ -1,0 +1,46 @@
+.chef_cards {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+
+  @media screen and (min-width: $bp-desktop) {
+      gap: 30px;
+    }
+
+  &__worker_img {
+    box-shadow: -12px 12px 0 0 var(--main-white-color), -12px 12px 0 2px #a18268;
+    border-radius: 2.325px 2.325px 2.325px 116.256px;
+    width: 140px;
+
+    @media screen and (min-width: $bp-desktop) {
+        width: 240px;
+        box-shadow: -16px 16px 0 0 var(--main-white-color), -16px 16px 0 2px #a18268;
+          border-radius: 4px 4px 4px 200px;
+      }
+  }
+
+  &__woreker_name {
+    font-size: 24px;
+    font-weight: var(--second-font-weight);
+    margin-bottom: 16px;
+
+    @media screen and (min-width: $bp-tablet) {
+        font-size: 40px;
+      }
+  }
+
+  &___woreker_description {
+    font-size: 14px;
+    margin-bottom: 24px;
+
+    &:last-child {
+        margin-bottom: 0;
+      }
+
+            @media screen and (min-width: $bp-tablet) {
+              font-size: 18px;
+            }
+  }
+
+
+}
